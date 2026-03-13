@@ -1,0 +1,106 @@
+.featuresSection {
+  padding: 4rem 0;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionHeader h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sectionHeader p {
+  color: #aaa;
+  font-size: 1.1rem;
+}
+
+.featureCard {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+}
+
+.featureHeader {
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+.featureIcon {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.featureTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.featureDescription {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.featureFooter {
+  padding: 1.5rem 2rem;
+  background-color: #222;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.packageHeader {
+  font-size: 0.85rem;
+  color: #eee;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.packageList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.packageTag {
+  background-color: #333;
+  color: #7dd3fc;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.learnMore {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.learnMore:hover {
+  text-decoration: none;
+  color: #38bdf8;
+}
+
+.arrow {
+  margin-left: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.learnMore:hover .arrow {
+  transform: translateX(4px);
+}

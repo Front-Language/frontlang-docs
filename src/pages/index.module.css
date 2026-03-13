@@ -1,0 +1,126 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  background-color: #007d9c;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.heroContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.heroContent {
+  max-width: 650px;
+  z-index: 1;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.featureItem {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.checkIcon {
+  margin-right: 0.75rem;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.buttonPrimary {
+  background-color: #ffde00;
+  color: #222;
+  border: none;
+  font-weight: bold;
+  padding: 0.8rem 2.5rem;
+}
+
+.buttonPrimary:hover {
+  background-color: #f0d100;
+  color: #000;
+  text-decoration: none;
+}
+
+
+.buttonOutline {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 0.8rem 2.5rem;
+}
+
+.buttonOutline:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  text-decoration: none;
+}
+
+.downloadLinks {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.downloadLinks a {
+  color: white;
+  text-decoration: underline;
+}
+
+.heroImage {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholderMascot {
+  font-size: 12rem;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2));
+  pointer-events: none;
+}
+
+@media screen and (max-width: 996px) {
+  .heroContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .heroTitle {
+    font-size: 2rem;
+  }
+  .featureItem {
+    justify-content: center;
+  }
+  .buttons {
+    justify-content: center;
+  }
+}

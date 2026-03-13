@@ -1,0 +1,11 @@
+# Tag Template:
+#
+# tag_name:
+#   label: <tag_label>
+#   permalink: /<tag_link>
+#   description: <tag_description>
+
+announce:
+  label: announcement
+  permalink: /announce
+  description: Front Announcements
