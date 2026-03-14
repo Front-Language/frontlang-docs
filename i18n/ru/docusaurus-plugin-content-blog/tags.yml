@@ -1,0 +1,11 @@
+# Tag Template:
+#
+# tag_name:
+#   label: <tag_label>
+#   permalink: /<tag_link>
+#   description: <tag_description>
+
+announce:
+  label: анонс
+  permalink: /announce
+  description: Анонсы продукта
