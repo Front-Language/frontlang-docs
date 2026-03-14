@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Блог",
+    "description": "Блог языка программирования Front"
+  },
+  "description": {
+    "message": "Блог",
+    "description": "Блог разработчика языка программирования Front"
+  },
+  "sidebar.title": {
+    "message": "Недавние публикации",
+    "description": "Список недавних публикаций"
+  }
+}
