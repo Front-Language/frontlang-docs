@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://front-language.github.io',
+  url: 'https://frontlang.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/frontlang-docs/',
@@ -100,7 +100,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/front-language',
+          href: 'https://github.com/frontlang',
           label: 'GitHub',
           position: 'right',
         },
@@ -140,7 +140,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/front-language',
+              href: 'https://github.com/frontlang',
             },
           ],
         },
